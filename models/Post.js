@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+/*const mongoose = require('mongoose');
 const bcrypt = require(bcrypt);
 const PostSchema = mongoose.Schema({
     title: {
@@ -14,4 +14,4 @@ const PostSchema = mongoose.Schema({
         default: Date.now
     }
 });
-module.exports = mongoose.model('Post', PostSchema);
+module.exports = mongoose.model('Post', PostSchema);*/

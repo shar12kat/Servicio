@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regístrese aquí</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body id="contenedorsecundario">
+
+    <section id="registro">
+        <h1 id="formularios">Regístrese aquí</h1><br>
+
+        <article>
+            <form action="/register" method="POST">
+                <label for="nombre" class="blanco">Nombre completo</label><br><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Escriba aquí su nombre completo" required class="amarillo"/><br><br><br>
+                <label for="email" class="blanco">E-mail</label><br><br>
+                <input type="text" id="email" name="email" placeholder="Escriba aquí su correo electrónico" required class="amarillo"/><br><br><br>
+                <label for="username" class="blanco">Usuario</label><br><br>
+                <input type="text" id="username" name="username" placeholder="Nombre que lo identificará" class="amarillo" required/><br><br><br>
+                <label for="password" class="blanco">Contraseña</label><br><br>
+                <input type="password" id="password" name="password" placeholder="Escriba aquí su contraseña" class="amarillo" required/><br><br><br>
+                <button type="submit" id="botonamarillo"><a href="register.html">Confirmar registro</a></button>
+            </form>
+
+            <div id="redireccion">
+              ¿Ya tiene una cuenta?<br>
+              <a href="authenticate.html"><span>Ingrese aquí</span></a>  
+            </div>
+        </article>
+    </section>
+    
+</body>
+</html>
